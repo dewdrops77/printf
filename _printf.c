@@ -23,7 +23,7 @@ int (*find_function(const char *format))(va_list)
 		{"X", print_X},
 		{"R", print_rot13},
 		{NULL, NULL}
-	};
+	}
 
 	while (find_f[i].sc)
 	{
